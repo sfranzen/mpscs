@@ -125,7 +125,7 @@
     </node>
     <node concept="3clFbS" id="5xnAHh0e6s8" role="LjaKd">
       <node concept="1MFPAf" id="5xnAHh0e6s7" role="3cqZAp">
-        <ref role="1MFYO6" to="wux4:5xnAHh09yB3" resolve="MakeMethodAsync" />
+        <ref role="1MFYO6" to="wux4:5xnAHh09yB3" resolve="MakeFunctionAsync" />
       </node>
     </node>
   </node>

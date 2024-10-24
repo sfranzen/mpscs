@@ -21,9 +21,6 @@
       <concept id="6209812394075305792" name="CsBaseLanguage.structure.IHaveTypeOrVoid" flags="ngI" index="3Sw9wS">
         <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
       </concept>
-      <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
-        <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
-      </concept>
       <concept id="6843536562190680504" name="CsBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -42,9 +39,7 @@
       <node concept="31LiC$" id="ZfJ9N93RjT" role="31Leeq">
         <property role="TrG5h" value="C" />
         <node concept="1ux1I" id="ZfJ9N93RjV" role="1fIg$P" />
-        <node concept="3UfwP1" id="ZfJ9N93Rk3" role="3Sw9wT">
-          <node concept="3UfM66" id="ZfJ9N93Rk8" role="3UfBpY" />
-        </node>
+        <node concept="3UfM66" id="ZfJ9N93Rk8" role="3Sw9wT" />
       </node>
       <node concept="31LiCB" id="ZfJ9N93Rki" role="31Leeq">
         <property role="TrG5h" value="D" />

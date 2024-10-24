@@ -783,7 +783,7 @@
                 <node concept="2OqwBi" id="30U1FYlw65E" role="2Oq$k0">
                   <node concept="2WthIp" id="30U1FYlw65H" role="2Oq$k0" />
                   <node concept="2XshWL" id="30U1FYlw65J" role="2OqNvi">
-                    <ref role="2WH_rO" node="30U1FYlw7Rg" resolve="returnStatement" />
+                    <ref role="2WH_rO" node="30U1FYlw7Rg" resolve="getReturn" />
                     <node concept="1PxgMI" id="30U1FYlw6Vs" role="2XxRq1">
                       <property role="1BlNFB" value="true" />
                       <node concept="chp4Y" id="30U1FYlw6Yu" role="3oSUPX">
@@ -824,7 +824,7 @@
                   <node concept="2OqwBi" id="30U1FYlweRT" role="2Oq$k0">
                     <node concept="2WthIp" id="30U1FYlweRW" role="2Oq$k0" />
                     <node concept="2XshWL" id="30U1FYlweRY" role="2OqNvi">
-                      <ref role="2WH_rO" node="30U1FYlw7Rg" resolve="returnStatement" />
+                      <ref role="2WH_rO" node="30U1FYlw7Rg" resolve="getReturn" />
                       <node concept="Jnkvi" id="30U1FYlwf1K" role="2XxRq1">
                         <ref role="1M0zk5" node="1XmGakP6sUX" resolve="block" />
                       </node>

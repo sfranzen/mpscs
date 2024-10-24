@@ -80,9 +80,6 @@
         <child id="6843536562191075791" name="argumentsList" index="3UdiBL" />
         <child id="6843536562191075789" name="primaryExpression" index="3UdiBN" />
       </concept>
-      <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
-        <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
-      </concept>
       <concept id="6843536562190680504" name="CsBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
       <concept id="6531566641162929002" name="CsBaseLanguage.structure.MemberReference" flags="ng" index="1VUwCF">
         <reference id="7783118190387115239" name="memberDeclaration" index="2aT8gA" />
@@ -183,9 +180,7 @@
             <node concept="zF7EM" id="XjP_cPMLWO" role="2YDbI4">
               <property role="TrG5h" value="x" />
             </node>
-            <node concept="3UfwP1" id="XjP_cPMLWQ" role="3SE38M">
-              <node concept="3UfM66" id="XjP_cPMLWY" role="3UfBpY" />
-            </node>
+            <node concept="3UfM66" id="XjP_cPMLWY" role="3SE38M" />
           </node>
           <node concept="sm1xP" id="XjP_cPMLWr" role="1ux1N">
             <node concept="1ux1M" id="XjP_cPMLX2" role="sm45V">

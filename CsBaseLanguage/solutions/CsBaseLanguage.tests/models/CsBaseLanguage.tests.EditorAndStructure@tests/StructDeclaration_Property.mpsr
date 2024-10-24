@@ -51,19 +51,16 @@
       <concept id="7486903154347131577" name="CsBaseLanguage.structure.PropertyDeclaration" flags="ng" index="1ux1T">
         <child id="7486903154347131649" name="accessorDeclaration" index="1ux71" />
       </concept>
-      <concept id="4106644276571785472" name="CsBaseLanguage.structure.AcessorDeclaration" flags="ng" index="j3B8Q">
+      <concept id="4106644276571785472" name="CsBaseLanguage.structure.AccessorDeclaration" flags="ng" index="j3B8Q">
         <child id="4106644276571785475" name="body" index="j3B8P" />
       </concept>
       <concept id="1945218857512325908" name="CsBaseLanguage.structure.EmptyBlock" flags="ng" index="2Y_LOE" />
       <concept id="7232527154588300037" name="CsBaseLanguage.structure.StructDeclaration" flags="ng" index="31LiC_">
         <child id="3766354144459938100" name="structMemberDeclaration" index="2qBxSn" />
       </concept>
-      <concept id="6432591675578008849" name="CsBaseLanguage.structure.INonArrayType" flags="ngI" index="1QGQOt" />
+      <concept id="6432591675578008849" name="CsBaseLanguage.structure.IType" flags="ngI" index="1QGQOt" />
       <concept id="6209812394072707164" name="CsBaseLanguage.structure.IHaveType" flags="ngI" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
-      </concept>
-      <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
-        <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -123,9 +120,7 @@
           <node concept="1ux0x" id="3tcg5Ugqj4w" role="1ux71">
             <node concept="2Y_LOE" id="3tcg5Ugqj4x" role="j3B8P" />
           </node>
-          <node concept="3UfwP1" id="3tcg5Ugqj4y" role="3SE38M">
-            <node concept="1QGQOt" id="3tcg5Ugqj4z" role="3UfBpY" />
-          </node>
+          <node concept="1QGQOt" id="3tcg5Ugqj4z" role="3SE38M" />
         </node>
       </node>
     </node>

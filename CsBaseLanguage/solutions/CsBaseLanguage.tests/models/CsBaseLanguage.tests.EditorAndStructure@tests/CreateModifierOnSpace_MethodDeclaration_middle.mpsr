@@ -57,9 +57,6 @@
       <concept id="6209812394072707160" name="CsBaseLanguage.structure.IHaveModifiers" flags="ngI" index="3SE3Ww">
         <child id="6209812394072707161" name="iModifier" index="3SE3Wx" />
       </concept>
-      <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
-        <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
-      </concept>
       <concept id="6843536562190680504" name="CsBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -93,15 +90,13 @@
           <node concept="31KRCQ" id="5xx_vq$0ag5" role="1ux1N" />
         </node>
         <node concept="1ux1I" id="5xx_vq$0ag6" role="1fIg$P" />
-        <node concept="3UfwP1" id="5xx_vq$0ag7" role="3Sw9wT">
-          <node concept="3UfM66" id="5xx_vq$0ag8" role="3UfBpY">
-            <node concept="LIFWc" id="5xx_vq$0ag9" role="lGtFl">
-              <property role="OXtK3" value="true" />
-              <property role="p6zMq" value="2" />
-              <property role="p6zMs" value="2" />
-              <property role="LIFWd" value="Constant_niawz5_a" />
-              <property role="LIFWa" value="2" />
-            </node>
+        <node concept="3UfM66" id="5xx_vq$0ag8" role="3Sw9wT">
+          <node concept="LIFWc" id="5xx_vq$0ag9" role="lGtFl">
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="2" />
+            <property role="p6zMs" value="2" />
+            <property role="LIFWd" value="Constant_niawz5_a" />
+            <property role="LIFWa" value="2" />
           </node>
         </node>
       </node>
@@ -113,9 +108,7 @@
           <node concept="31KRCQ" id="5xx_vq$0agd" role="1ux1N" />
         </node>
         <node concept="1ux1I" id="5xx_vq$0age" role="1fIg$P" />
-        <node concept="3UfwP1" id="5xx_vq$0agf" role="3Sw9wT">
-          <node concept="3UfM66" id="5xx_vq$0agg" role="3UfBpY" />
-        </node>
+        <node concept="3UfM66" id="5xx_vq$0agg" role="3Sw9wT" />
         <node concept="2qAx6t" id="5xx_vq$0agh" role="3SE3Wx">
           <node concept="LIFWc" id="5xx_vq$0agi" role="lGtFl">
             <property role="ZRATv" value="true" />

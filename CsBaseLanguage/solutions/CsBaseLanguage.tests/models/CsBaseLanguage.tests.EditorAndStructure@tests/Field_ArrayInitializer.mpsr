@@ -32,6 +32,10 @@
       <concept id="7486903154347131554" name="CsBaseLanguage.structure.VariableDeclaratorList" flags="ng" index="1ux1y">
         <child id="7486903154347131555" name="VariableDeclarator" index="1ux1z" />
       </concept>
+      <concept id="9071317975381422661" name="CsBaseLanguage.structure.ArrayType" flags="ng" index="22QBBB">
+        <child id="9071317975385721156" name="elementType" index="22A8bA" />
+        <child id="3013000098002006343" name="rankSpecifier" index="cs2bB" />
+      </concept>
       <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM">
         <child id="3125407777189916705" name="initializer" index="1qY_RL" />
       </concept>
@@ -43,10 +47,6 @@
         <child id="6209812394072710474" name="type" index="3SE38M" />
       </concept>
       <concept id="6843536562190902679" name="CsBaseLanguage.structure.ArrayInitializer" flags="ng" index="3Uc4mD" />
-      <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
-        <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
-        <child id="6843536562190767745" name="rankSpecifier" index="3UfBqZ" />
-      </concept>
       <concept id="6843536562190767682" name="CsBaseLanguage.structure.RankSpecifier" flags="ng" index="3UfBpW" />
       <concept id="6843536562190680504" name="CsBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
     </language>
@@ -79,9 +79,9 @@
             </node>
           </node>
         </node>
-        <node concept="3UfwP1" id="5xnAHgZvEYy" role="3SE38M">
-          <node concept="3UfM66" id="5xnAHgZvEYu" role="3UfBpY" />
-          <node concept="3UfBpW" id="5xnAHgZvEYz" role="3UfBqZ" />
+        <node concept="22QBBB" id="2BgkU0A9L16" role="3SE38M">
+          <node concept="3UfM66" id="2BgkU0A9L17" role="22A8bA" />
+          <node concept="3UfBpW" id="2BgkU0A9L18" role="cs2bB" />
         </node>
       </node>
     </node>
@@ -93,9 +93,9 @@
             <node concept="3Uc4mD" id="5xnAHgZvEZb" role="1qY_RL" />
           </node>
         </node>
-        <node concept="3UfwP1" id="5xnAHgZvEYX" role="3SE38M">
-          <node concept="3UfM66" id="5xnAHgZvEYY" role="3UfBpY" />
-          <node concept="3UfBpW" id="5xnAHgZvEYZ" role="3UfBqZ" />
+        <node concept="22QBBB" id="2BgkU0A9L19" role="3SE38M">
+          <node concept="3UfM66" id="2BgkU0A9L1a" role="22A8bA" />
+          <node concept="3UfBpW" id="2BgkU0A9L1b" role="cs2bB" />
         </node>
       </node>
     </node>

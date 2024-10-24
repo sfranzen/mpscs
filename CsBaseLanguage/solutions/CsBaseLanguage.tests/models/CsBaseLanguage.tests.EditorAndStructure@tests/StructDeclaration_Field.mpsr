@@ -48,12 +48,9 @@
       <concept id="7232527154588300037" name="CsBaseLanguage.structure.StructDeclaration" flags="ng" index="31LiC_">
         <child id="3766354144459938100" name="structMemberDeclaration" index="2qBxSn" />
       </concept>
-      <concept id="6432591675578008849" name="CsBaseLanguage.structure.INonArrayType" flags="ngI" index="1QGQOt" />
+      <concept id="6432591675578008849" name="CsBaseLanguage.structure.IType" flags="ngI" index="1QGQOt" />
       <concept id="6209812394072707164" name="CsBaseLanguage.structure.IHaveType" flags="ngI" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
-      </concept>
-      <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
-        <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -109,9 +106,7 @@
               <property role="TrG5h" value="bar" />
             </node>
           </node>
-          <node concept="3UfwP1" id="2JBWLpaXLQk" role="3SE38M">
-            <node concept="1QGQOt" id="2JBWLpaXLQl" role="3UfBpY" />
-          </node>
+          <node concept="1QGQOt" id="2JBWLpaXLQl" role="3SE38M" />
         </node>
       </node>
     </node>

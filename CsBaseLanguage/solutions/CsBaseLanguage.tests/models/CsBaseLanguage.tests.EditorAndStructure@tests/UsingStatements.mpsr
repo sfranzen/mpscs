@@ -52,9 +52,6 @@
       <concept id="6843536562190981614" name="CsBaseLanguage.structure.IntLiteral" flags="ng" index="3UcVBg">
         <property id="3129541975290926181" name="value" index="1pzoAX" />
       </concept>
-      <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
-        <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
-      </concept>
       <concept id="6843536562190680504" name="CsBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
       <concept id="6531566641162929002" name="CsBaseLanguage.structure.MemberReference" flags="ng" index="1VUwCF">
         <reference id="7783118190387115239" name="memberDeclaration" index="2aT8gA" />
@@ -89,9 +86,7 @@
               <property role="1pzoAX" value="2" />
             </node>
           </node>
-          <node concept="3UfwP1" id="iHtKXPO$lO" role="3SE38M">
-            <node concept="3UfM66" id="iHtKXPO$lV" role="3UfBpY" />
-          </node>
+          <node concept="3UfM66" id="iHtKXPO$lV" role="3SE38M" />
         </node>
         <node concept="1LSytM" id="4jo$K3eo0cK" role="1LSHan">
           <node concept="2a_s8y" id="4jo$K3eo0cT" role="1LSHap">
@@ -117,9 +112,7 @@
               <property role="1pzoAX" value="1" />
             </node>
           </node>
-          <node concept="3UfwP1" id="iHtKXPO$o8" role="3SE38M">
-            <node concept="3UfM66" id="iHtKXPO$oi" role="3UfBpY" />
-          </node>
+          <node concept="3UfM66" id="iHtKXPO$oi" role="3SE38M" />
         </node>
         <node concept="1LSytM" id="iHtKXPO$nR" role="1ux1N">
           <node concept="1VUwCF" id="iHtKXPO$ot" role="1LSHap">
@@ -142,9 +135,7 @@
               </node>
             </node>
           </node>
-          <node concept="3UfwP1" id="iHtKXPO$my" role="3SE38M">
-            <node concept="3UfM66" id="iHtKXPO$mz" role="3UfBpY" />
-          </node>
+          <node concept="3UfM66" id="iHtKXPO$mz" role="3SE38M" />
         </node>
         <node concept="1ux1M" id="iHtKXPO$m$" role="1LSHan">
           <node concept="31KRCQ" id="iHtKXPO$m_" role="1ux1N" />

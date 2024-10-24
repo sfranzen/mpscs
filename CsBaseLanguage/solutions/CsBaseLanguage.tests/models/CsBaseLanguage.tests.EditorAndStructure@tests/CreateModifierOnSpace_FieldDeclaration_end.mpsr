@@ -51,9 +51,6 @@
       <concept id="6209812394072707164" name="CsBaseLanguage.structure.IHaveType" flags="ngI" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
       </concept>
-      <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
-        <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
-      </concept>
       <concept id="6843536562190680504" name="CsBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -76,15 +73,13 @@
             <property role="TrG5h" value="bar" />
           </node>
         </node>
-        <node concept="3UfwP1" id="3tcg5UgoZqC" role="3SE38M">
-          <node concept="3UfM66" id="3tcg5UgoZqD" role="3UfBpY">
-            <node concept="LIFWc" id="3tcg5UgoZr0" role="lGtFl">
-              <property role="ZRATv" value="true" />
-              <property role="OXtK3" value="true" />
-              <property role="p6zMq" value="3" />
-              <property role="p6zMs" value="3" />
-              <property role="LIFWd" value="Constant_niawz5_a" />
-            </node>
+        <node concept="3UfM66" id="3tcg5UgoZqD" role="3SE38M">
+          <node concept="LIFWc" id="3tcg5UgoZr0" role="lGtFl">
+            <property role="ZRATv" value="true" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="3" />
+            <property role="p6zMs" value="3" />
+            <property role="LIFWd" value="Constant_niawz5_a" />
           </node>
         </node>
       </node>
@@ -96,9 +91,7 @@
             <property role="TrG5h" value="bar" />
           </node>
         </node>
-        <node concept="3UfwP1" id="3tcg5UgoZqJ" role="3SE38M">
-          <node concept="3UfM66" id="3tcg5UgoZqK" role="3UfBpY" />
-        </node>
+        <node concept="3UfM66" id="3tcg5UgoZqK" role="3SE38M" />
         <node concept="2qAx6t" id="3tcg5UgoZqL" role="3SE3Wx">
           <node concept="LIFWc" id="3tcg5UgoZqM" role="lGtFl">
             <property role="ZRATv" value="true" />

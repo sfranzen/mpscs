@@ -35,9 +35,6 @@
       <concept id="7232527154588476195" name="CsBaseLanguage.structure.FormalParameter" flags="ng" index="31KZC3">
         <child id="8700838527816343363" name="type" index="2UegB9" />
       </concept>
-      <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
-        <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
-      </concept>
       <concept id="6843536562190680504" name="CsBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -68,9 +65,7 @@
       <node concept="1ux1I" id="iSyfcwfJxS" role="1qenE9">
         <node concept="31KZC3" id="iSyfcwfMSH" role="1ux1J">
           <property role="TrG5h" value="x" />
-          <node concept="3UfwP1" id="iSyfcwfMSI" role="2UegB9">
-            <node concept="3UfM66" id="iSyfcwfMSG" role="3UfBpY" />
-          </node>
+          <node concept="3UfM66" id="iSyfcwfMSG" role="2UegB9" />
         </node>
       </node>
     </node>

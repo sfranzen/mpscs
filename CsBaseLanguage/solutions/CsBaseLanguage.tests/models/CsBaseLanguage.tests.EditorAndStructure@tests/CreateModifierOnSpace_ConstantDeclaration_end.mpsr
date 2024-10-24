@@ -60,9 +60,6 @@
       <concept id="6843536562190981614" name="CsBaseLanguage.structure.IntLiteral" flags="ng" index="3UcVBg">
         <property id="3129541975290926181" name="value" index="1pzoAX" />
       </concept>
-      <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
-        <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
-      </concept>
       <concept id="6843536562190680504" name="CsBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -101,9 +98,7 @@
             </node>
           </node>
         </node>
-        <node concept="3UfwP1" id="3tcg5UgoNPl" role="3SE38M">
-          <node concept="3UfM66" id="3tcg5UgoNPw" role="3UfBpY" />
-        </node>
+        <node concept="3UfM66" id="3tcg5UgoNPw" role="3SE38M" />
         <node concept="LIFWc" id="3tcg5UgoNPF" role="lGtFl">
           <property role="ZRATv" value="true" />
           <property role="OXtK3" value="true" />
@@ -125,9 +120,7 @@
             </node>
           </node>
         </node>
-        <node concept="3UfwP1" id="3tcg5UgoNPM" role="3SE38M">
-          <node concept="3UfM66" id="3tcg5UgoNPX" role="3UfBpY" />
-        </node>
+        <node concept="3UfM66" id="3tcg5UgoNPX" role="3SE38M" />
         <node concept="2qAx6t" id="3tcg5UgoNQ4" role="3SE3Wx">
           <node concept="LIFWc" id="3tcg5UgoNQd" role="lGtFl">
             <property role="ZRATv" value="true" />
